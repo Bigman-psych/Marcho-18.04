@@ -137,6 +137,10 @@
         line-height: 1;
     }
 
+    &__form {
+        display: flex;
+    }
+
     &__link {
         margin-bottom: 14px;
         display: block;
@@ -150,6 +154,7 @@
         background-color: #fff;
         max-width: 320px;
         width: 100%;
+        margin-right: 3px;
         border: none;
         padding: 12px 10px 12px 15px;
         box-shadow: 0px 7px 20px 0px rgba(192, 192, 192, 0.3);
@@ -2191,15 +2196,18 @@
         color: $title;
         margin-bottom: 20px;
     }
-    &__info-text{
+
+    &__info-text {
         margin-bottom: 60px;
     }
-    &__info-item{
+
+    &__info-item {
         color: $title;
         margin-top: 55px;
         padding-left: 80px;
         position: relative;
-        &::before{
+
+        &::before {
             content: '';
             position: absolute;
             top: -5px;
@@ -2208,7 +2216,8 @@
             height: 60px;
             box-shadow: 0px 5px 20px 0px rgba(146, 146, 146, 0.3);
         }
-        &::after{
+
+        &::after {
             content: '';
             position: absolute;
             width: 20px;
@@ -2218,33 +2227,39 @@
             top: 15px;
         }
     }
-    &__info-item--email::after{
+
+    &__info-item--email::after {
         width: 18px;
         left: 21px;
         background-image: url(../images/icons/shape.svg);
-        
+
     }
-    &__info-item--location::after{
+
+    &__info-item--location::after {
         width: 14px;
         left: 23px;
         background-image: url(../images/icons/location-icon.svg);
     }
-    &__info-phone{
+
+    &__info-phone {
         display: block;
-        color:$title;
+        color: $title;
     }
-    &__form{
+
+    &__form {
         padding: 60px 40px;
         box-shadow: 0px 5px 20px 0px rgba(146, 146, 146, 0.3);
         width: 100%;
     }
-    &__form-title{
+
+    &__form-title {
         font-size: 22px;
         margin-bottom: 20px;
         color: $title;
         @extend %roboto-700;
     }
-    &__form-input{
+
+    &__form-input {
         width: 100%;
         display: block;
         height: 60px;
@@ -2253,7 +2268,8 @@
         padding: 0 24px;
         margin-bottom: 30px;
     }
-    &__form-textarea{
+
+    &__form-textarea {
         width: 100%;
         display: block;
         resize: none;
@@ -2263,14 +2279,17 @@
         padding: 24px;
         margin-bottom: 30px;
     }
-    &__form-box{
+
+    &__form-box {
         display: flex;
         justify-content: space-between;
-        input{
+
+        input {
             width: 330px;
         }
     }
-    &__form-btn{
+
+    &__form-btn {
         @extend %btn;
         border: none;
     }
@@ -2278,7 +2297,7 @@
 
 
 
-  
+
 
 
 
