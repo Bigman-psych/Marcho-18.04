@@ -13,23 +13,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .page-404 {
     padding: 110px 0 120px;
 
@@ -49,6 +32,7 @@
         margin-bottom: 40px;
         @extend %roboto-700;
         font-size: 48px;
+        line-height: 52px;
     }
 
     &__text {
